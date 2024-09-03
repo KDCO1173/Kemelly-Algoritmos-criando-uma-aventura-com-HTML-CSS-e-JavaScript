@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Enigma do Farol Abandonado</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="O Enigma do Farol Abandonado.png" alt="">
+            <p>Você é Sally, uma jovem engenheira naval apaixonada por histórias antigas e mistérios. Em uma tarde chuvosa, você encontra uma carta antiga em um mercado de pulgas, endereçada a um "Destinatário Desconhecido". A carta fala de um farol abandonado localizado em uma ilha distante e menciona um enigma que, se resolvido, revelará um segredo antigo.
+
+                Decidido a resolver o mistério, você conta a Jamie, seu amigo de infância e especialista em história marítima. Jamie está animado para ajudar e, juntos, vocês embarcam em um barco e navegam até a ilha. O farol abandonado ergue-se imponente na ilha, coberto de musgo e envolto em mistério.Você e Jamie chegam à base do farol e observam duas entradas principais: uma porta de ferro enferrujada e uma escada que leva ao andar superior onde a luz do farol está localizada.</p>
+            <button class="btn-proximo" data-proximo="1">Você e Jamie decididem explorar a porta de ferro</button>
+            <button class="btn-proximo" data-proximo="2">Vocês optam por subir a escada e explorar o andar superior</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você abre a pesada porta de ferro com um rangido e entra em um grande salão coberto de poeira e teias de aranha. No centro do salão, há uma mesa antiga com um livro de registros e uma série de engrenagens e mecanismos espalhados pelo chão.</p>
+            <button class="btn-proximo" data-proximo="3">Examinar as engrenagens e mecanismos juntos</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa sozinha.</button>
+        </div> 
+       <div class="passo" id="passo-2">
+            <p>Vocês sobem as escadas e chegam a uma plataforma circular com uma visão panorâmica da ilha. A luz do farol, agora inoperante, está coberta por uma série de engrenagens e lentes. Perto da base da luz, há uma caixa de madeira antiga.</p>
+            <button class="btn-proximo" data-proximo="5">Vocês abrem a caixa de madeira</button>
+            <button class="btn-proximo" data-proximo="6">Vocês tentam consertar a luz do farol</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Vocês examinam as engrenagens e descobrem que estão desordenadas e corroídas pelo tempo. Após um tempo de tentativa e erro, conseguem ajustar algumas peças, mas percebem que há uma parte fundamental que está faltando.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="partindo.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, deixando seu parceiro para trás, sempre se perguntando o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocês abrem a caixa de madeira e encontram um conjunto de antigos mapas náuticos e uma pequena chave de ferro. O mapa mostra uma localização específica na ilha, marcada com um "X".</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa até o local marcado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Vocês tentam consertar a luz do farol, ajustando as lentes e as engrenagens. Após algum tempo, conseguem restaurar a luz e ativar o farol. A luz brilha intensamente, iluminando a ilha e revelando uma mensagem secreta gravada na parede do farol.</p>
+            <button class="btn-proximo" data-proximo="8">Levar a mensagem secreta até a ilha agora iluminada.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de consertar a luz do farol, vocês seguem o mapa que encontraram até o local marcado e encontram uma pequena caverna onde um baú antigo está enterrado. Dentro do baú, há uma série de artefatos antigos e um diário que revela a verdadeira história do farol e seu propósito.</p>
+            <button class="btn-proximo" data-proximo="12">Fim</button>
+    
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decifrando a mensagem secreta, vocês descobrem instruções para encontrar um compartimento escondido na base do farol. Lá, encontram documentos antigos e um artefato valioso.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Voltando ao andar superior, vocês usam a chave encontrada na caixa de madeira para abrir um compartimento escondido. Dentro, encontram um antigo mapa e anotações que explicam a verdadeira função do farol.</p>
+            <button class="btn-proximo" data-proximo="11">Fim: Com essas informações, vocês revelam o mistério do farol e retornam como conhecedores da história.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Fim: Sua descoberta ilumina a verdadeira importância do farol na história.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
